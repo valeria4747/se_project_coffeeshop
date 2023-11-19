@@ -1,0 +1,32 @@
+{
+    "workbench.colorTheme": "Default Light Modern",
+    "window.zoomLevel": 2
+
+    { 
+        // if you have any existing settings, they should go here
+        // otherwise, delete these two lines
+        "[css]": {
+         "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[html]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[javascript]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[javascriptreact]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[json]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[jsonc]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "editor.formatOnSave": true,
+      }
+      
+      "files.autoSave": "onFocusChange",
+      
+
+}
