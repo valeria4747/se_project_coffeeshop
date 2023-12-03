@@ -11,7 +11,7 @@ background-size: cover;
 }
 
 .menu__title {
-align-items: center;
+text-align: center;
   margin: 0 auto 24px;
   max-width: 780px;
   font-family: "Inter";
@@ -21,7 +21,7 @@ line-height: 52px;
 }
 
 .menu__subtitle {
-  align-items: center;
+  text-align: center;
   margin: 0 auto 100px;
   max-width: 780px;
   font-family: "Noto Serif";

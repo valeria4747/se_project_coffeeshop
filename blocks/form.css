@@ -14,11 +14,23 @@
   display: block;
  }
 
+.form__checkbox {
+border-radius: 2px;
+background-color: #2F80ED;
+background-image: url(../images/check.svg);
+font-family: Inter;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+}
+
  .form__label_type_checkbox {
     display: flex;
     justify-content: center;
     border-radius:2px;
     gap: 12px;
+    margin-bottom: 0;
  }
 
 
@@ -31,6 +43,9 @@
   margin-top: 8px;
   height: 60px;
   border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #838383);
  }
 
  .form__input::placeholder {
@@ -50,7 +65,7 @@ padding-left: 10px;
 font-weight: 500;
 font-size: 16px;
 line-height: 20px;
-background-color: #2f80ed;
+font: #2f80ed;
 border: #838383;
 border-radius: 4px;
  }

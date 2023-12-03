@@ -8,9 +8,7 @@
      <meta name= "author" content="Valeria">
      <title>Coffee Shop</title>
      <link rel="shortcut icon" href="favicon.ico" />
-     <link rel="stylesheet" href="./vendor/normalize.css" />
      <link rel="stylesheet" href="./pages/index.css" />
-     <link rel="stylesheet" href="./styles/style.css" />
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet">
@@ -94,7 +92,7 @@
                       />
                     </label>
                   </fieldset>
-                  <button class="form__button">Book a table</button>
+                  <button type="submit" class="form__button">Book a table</button>
                   <label for="terms" class="form__label form__label_type_checkbox">
                     <input type="checkbox" class="form__checkbox" id="terms">I agree with terms of use
                   </label>
@@ -148,19 +146,19 @@
                          <div class="about__circle"></div>
                          <div class="about__circle about__circle_animation_blurred"></div>
                    </section>
-      </main>
+           </main>
 
-      <footer class="footer__content">
-        <div class="footer__columns">
-          <div class="footer__social">
+           <footer class="footer">
+           <div class="footer__columns">
+            <div class="footer__social">
             <img
               src="./images/logo_coffeeshop_light.svg"
               alt="TripleTen logo"
               class="footer__logo"
             />
-          </div>
+           </div>
 
-          <div class="footer__social ">
+           <div class="footer__social ">
             <h3 class="footer__social-heading" id="contacts">Social media</h3>
             <ul class="footer__list">
               <li class="footer__list-item">
@@ -184,10 +182,10 @@
                 >
               </li>
             </ul>
+            </div>
           </div>
-        </div>
-        <p class="footer__copyright">&copy; 2023 Valeria</p>
-      </footer>
-
-  </body>
-</html>
+           <p class="footer__copyright">&copy; 2023 Valeria</p>
+            </footer>
+          </div>
+        </body>
+  </html>

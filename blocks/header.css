@@ -5,11 +5,13 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  position: relative;
   background-image: url(../images/background_header.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  z-index: 1;
+  position: relative;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -38,10 +40,6 @@
     line-height: 30px;
     margin: 28px 0 0;
     font-family: "Noto Serif";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
    }
 
    .header__image {
@@ -51,6 +49,7 @@
     top: 124px;
     max-width: 646px;
     height: 568px;
+    z-index: -1;
    }
 
    .header__footer {
