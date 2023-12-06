@@ -31,9 +31,11 @@ font-weight: 500;
 font-size: 44px;
 line-height: 52px;
 max-width: 251px;
-      top: -9px ;
+position: absolute;
+      top: 100px ;
+      left: 80px;
       z-index: 2;
-      margin-bottom: 0;
+      margin: 0;
   }
 
   .about__content {
