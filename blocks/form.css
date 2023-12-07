@@ -1,6 +1,6 @@
 .form {
   max-width: 385px;
-margin: 0 auto;
+ margin: 0 auto;
  }
 
  .form__fieldset {
@@ -60,11 +60,11 @@ padding-left: 10px;
   margin: 0 0 32px;
  height: 60px;
  font-family: Inter, Arial, sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
-background-color: #2f80ed;
-border: #838383;
-border-radius: 4px;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 20px;
+ background-color: #2f80ed;
+ border: #838383;
+ border-radius: 4px;
+ color: #fff;
  }
- 
